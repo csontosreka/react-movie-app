@@ -8,7 +8,6 @@ const requests = {
 
   requestPopularTvShows: `https://api.themoviedb.org/3/tv/popular?api_key=${APIkey}&language=en-US&page=1`,
   requestTopRatedTvShows: `https://api.themoviedb.org/3/tv/top_rated?api_key=${APIkey}&language=en-US&page=1`,
-  requestLatestTvShows: `https://api.themoviedb.org/3/tv/latest?api_key=${APIkey}&language=en-US`,
 };
 
 export default requests;
