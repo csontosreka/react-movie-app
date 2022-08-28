@@ -11,10 +11,6 @@ export const Home = () => {
       <Row title='Popular Movies' url={requests.requestPopularMovies}/>
       <Row title='Top Rated Movies' url={requests.requestTopRatedMovies}/>
       <Row title='Trending Movies' url={requests.requestTrendingMovies}/>
-      <Row title='Popular TV Shows' url={requests.requestPopularTvShows}/>
-      <Row title='Top Rated TV Shows' url={requests.requestTopRatedTvShows}/>
-      
-
     </>
   )
 }
